@@ -1,0 +1,110 @@
+•{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    /* width: 1000px; */
+}
+.container{
+    display: flex;
+}
+.about-me-text{
+    padding-left: 10rem;
+    width: 500px;
+    text-align: justify;
+    
+}
+p{
+    color: rgb(18, 17, 17);
+    width: 500px;
+    height: ;
+    
+}
+
+/* HOME PAGE STYLE */
+.nav-bar{
+    background-color: black;
+    height: 50px;
+    
+    margin-top: -9px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar > ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 50px;
+}
+.nav-bar>ul>li{
+    display: inline;
+}
+
+.nav-bar>ul>li>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 50px;
+    
+    
+
+}
+.nav-bar>ul>li>a:hover{
+    background-color: red;
+    height: 4px;    
+
+}
+
+.pfp{
+    width: 350px;
+    height: 350px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.home-text{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+/* LOGIN PAGE STYLE */
+
+body{
+    padding: 100px;
+    width: 320px;
+    height: 420px;
+    background: rgb(231, 222, 222);
+    color: rgb(70, 55, 35);
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    align-self: center;
+}
+
+.sign-in-text{
+    margin: ;
+    padding: ;
+    background: url(background.jpegs.webp);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.background{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+   
+
+
+
+
+
+

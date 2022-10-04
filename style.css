@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  .topnav {
+    background: #5534A5;
+  }
+  
+  .topflex {
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .toplink ul {
+    display: flex;
+  }
+  
+  .toplink ul li {
+    list-style-type: none;
+  }
+  
+  .toplink ul li a {
+    text-decoration: none;
+    color: #FAF5E4;
+    margin: 0 24px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .toplink ul li a:hover {
+    color: #6FDFDF;
+    transition: 0.5s;
+  }
+  
+  .calculator {
+    text-decoration: none;
+    font-weight: 600;
+    background: #FAF5E4;
+    color: #5534A5;
+    border: 2px solid #5534A5;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  .calculator:hover {
+    background: #5534A5;
+    border: 2px solid #FAF5E4;
+    color: #FAF5E4;
+    transition: 0.5s;
+  }
+  
+  .toplogo h3 {
+    color: #6FDFDF;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+
+.about {
+  background: #FAF5E4;
+}
+
+.about-info {
+    width: 1300px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+}
+
+.about-info .intro {
+  flex: 2;
+  margin: 0 50px;
+  
+}
+
+.about img {
+  width: 100%;
+  height: 70vh;
+  border: 2px solid #5534A5;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px #5534A5;
+}
+
+.intro h1, .intro h2, .intro p, .intro li {
+  color: #5534A5;
+}
+
+  /* CONTACT PAGE */
+  .contact-info {
+    background: #5534A5;
+  }
+  .contact {
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+  }
+  .contact input[type=text], .contact select, .contact textarea {
+    width: 50%;
+    display: block;
+    padding: 16px 8px;
+    margin: 16px 0;
+    outline: none;
+    border: 2px solid #5534A5;
+    border-radius: 8px;
+  }
+  
+  .contact input[type=submit] {
+    width: 8%;
+    padding: 8px 4px;
+    margin: 8px 0;
+    outline: none;
+    background-color:  #5534A5;
+    border: 2px solid #FAF5E4;
+    border-radius: 8px;
+    color: #FAF5E4;
+  }
+  
+  .contact input[type=submit]:hover {
+    background-color: #FAF5E4;
+    border: 2px solid #5534A5;
+    color: #5534A5;
+    transition: 0.5s;
+  }
+  
+  .contact h3 {
+    font-family: 'open Sans', sans-serif;
+    font-size: 30px;
+    color: #FAF5E4;
+    padding: 8px 0;
+  }
+  
+  .contact label {
+    color: #5534A5;
+    font-size: 16px;
+  }
+
+ /*REGISTER PAGE*/
+  
+  .register-info {
+    background: #FAF5E4;
+  }
+  
+  .register {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .register-width {
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+  }
+  
+  .register-1, .register-2, .register-3 {
+    flex: 1;
+    margin: 0px 16px 0px 0px;
+  }
+  
+  .register-1 input[type=text], .register-1 input[type=number] {
+    width: 100%;
+    display: block;
+    padding: 16px 8px;
+    margin: 16px 0;
+    outline: none;
+    border: 2px solid #5534A5;
+    border-radius: 8px;
+  }
+  
+  .register-2 input[type=text], .register-2 select {
+    width: 100%;
+    display: block;
+    padding: 16px 8px;
+    margin: 16px 0;
+    outline: none;
+    border: 2px solid #5534A5;
+    border-radius: 8px;
+  }
+  
+  .register-3 input[type=text], .register-3 input[type=password] {
+    width: 100%;
+    display: block;
+    padding: 16px 8px;
+    margin: 16px 0;
+    outline: none;
+    border: 2px solid #5534A5;
+    border-radius: 8px;
+  }
+  
+  .register-width input[type=submit] {
+    width: 8%;
+    padding: 8px 4px;
+    margin: 8px 0;
+    outline: none;
+    background-color:  #5534A5;
+    border: 2px solid #FAF5E4;
+    border-radius: 8px;
+    color: #FAF5E4;
+  }
+  
+  .register-width input[type=submit]:hover {
+     background-color: #FAF5E4;
+    border: 2px solid #5534A5;
+    color: #5534A5;
+    transition: 0.5s;
+  }
+  
+  .register-width label {
+    color: #5534A5;
+    font-size: 16px;
+  }
+  
+  .register-width h3 {
+    font-family: 'open Sans', sans-serif;
+    font-size: 30px;
+    color: #5534A5;
+    padding: 8px 0;
+  }
+
+
+.login-info {
+    background: #5534A5;
+  }
+  
+  .login {
+    width: 1300px;
+    margin: auto;
+    padding: 30px 0;
+  }
+  
+  .login input[type=text], .login input[type=password] {
+    width: 50%;
+    display: block;
+    padding: 16px 8px;
+    margin: 16px 0;
+    outline: none;
+    border: 2px solid #5534A5;
+    border-radius: 8px;
+  }
+  
+  .login input[type=submit] {
+    width: 8%;
+    padding: 8px 4px;
+    margin: 8px 0;
+    outline: none;
+    background-color:  #5534A5;
+    border: 2px solid #FAF5E4;
+    border-radius: 8px;
+    color: #FAF5E4;
+  }
+  
+  .login input[type=submit]:hover {
+     background-color: #FAF5E4;
+    border: 2px solid #5534A5;
+    color: #5534A5;
+    transition: 0.5s;
+  }
+  
+  .login label {
+    color: #5534A5;
+    font-size: 16px;
+  }
+  
+  .login h3 {
+    font-family: 'open Sans', sans-serif;
+    font-size: 30px;
+    color: #FAF5E4;
+    padding: 8px 0;
+  } 
+
+
+.box {
+    background-color: #FAF5E4;  
+  width: 500px;  
+  height: 650px;  
+  border-radius: 5px;  
+  margin-left: 350px;
+  margin-top: 40px;
+}
+
+.one, .two, .three, .four, .five {
+ display: flex;
+}
+.two, .three, .four, .five {
+   margin-top: 40px;
+}
+
+h1{
+  margin-top: 30px;
+}
+
+.c {
+    width: 80px; 
+  height: 80px; 
+  background-color: #5534A5;
+  border-radius: 40px; 
+  margin-top: 20px;
+  margin-left: 20px;   
+  text-align: center;  
+  box-shadow: 5px 5px 10px #5534A5;
+}
+
+.c h1 {
+    color: #FAF5E4; 
+  font-family: 'Quicksand';
+}
+
+.pink {
+    width: 355px; 
+  height: 75px; 
+  background-color: #FAF5E4; 
+  border-radius: 5px; 
+  margin-left: 20px;
+  margin-top: 20px; 
+  box-shadow: 5px 5px 10px #5534A5;
+}
+
+
+
+.seven {
+    margin-left: 20px;  
+  width: 90px;  
+  height: 90px; 
+  background-color: #5534A5;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #5534A5;
+  text-align: center; 
+}
+
+.seven h1 {
+  color: #FAF5E4;
+  font-family: 'Quicksand';
+}
+
+.eight {
+  margin-left: 30px; 
+  width: 90px; 
+  height: 90px; 
+  background-color: #5534A5;  
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #5534A5;
+  text-align: center;
+}
+.eight h1 {
+    color: #FAF5E4; 
+  font-family: 'Quicksand';
+}
+
+.nine {
+    margin-left: 30px; 
+  width: 90px; 
+  height: 90px; 
+  background-color: #5534A5; 
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #5534A5;
+  text-align: center;
+}
+
+.nine h1 {
+    color: #FAF5E4; 
+  font-family: 'Quicksand';
+}
+
+.divide {
+    margin-left: 30px; 
+  width: 90px; 
+  height: 90px; 
+  background-color: #5534A5;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #5534A5;
+  text-align: center;
+}
+
+.divide h1 {
+    color: #FAF5E4;  
+  font-family: 'Quicksand';
+}
